@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "courseApplication",
+    "packageName": "es.padis.course",
+    "packageFolder": "es/padis/course",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mariadb",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "YmU0YWNlOTY5OGU2ODdhY2MyNGRhNzA5ZmE1MTdmMDkyYzlhYjk3ODIxNzg0NDk3OTg4OGRmOTg1YWFkNTkwZDY2ZTMxMTY2ZmIwNjFlZTAwYjhkN2MwZGZhYzJhZDE0YzBhNjVlM2U5NWY5YmZhZmNlYTYwM2VhZjYxY2M3MTA=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "padis",
+  "repository-name": "course-application"
+}
